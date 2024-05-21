@@ -32,23 +32,25 @@
     <!-- +----- Main Section Start -------+ -->
     <main>
         <div class="cards-container container flex">
-            <div class="card">
-                <div class="card-header">
-                    <img src="" alt="News-Image" id="news-img">
-                </div>
-                <div class="card-content">
-                    <h3>This is Title</h3>
-                    <h6>End Gadget 26-06-2023</h6>
-                    <p class="news-desc">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sed expedita corporis nobis quod esse, praesentium qui sit consectetur culpa.
-                    </p>
-                </div>
-            </div>
+            
         </div>
     </main>
     <!-- +----- Main Section End -------+ -->
     
-
+    <template id="template-news-card">
+        <div class="card">
+            <div class="card-header">
+                <img src="./assets/imagesd1.jpeg" alt="News-Image" id="news-img">
+            </div>
+            <div class="card-content">
+                <h3 id="new-title">This is Title</h3>
+                <h6 class="news-source" id="news-source">End Gadget 26-06-2023</h6>
+                <p class="news-desc" id="news-desc">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae sed expedita corporis nobis quod esse, praesentium qui sit consectetur culpa.
+                </p>
+            </div>
+        </div>
+    </template>
 
 
     <script src="./newsScript.js" type="text/javascript"></script>
